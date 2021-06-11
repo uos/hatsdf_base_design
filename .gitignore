@@ -1,0 +1,20 @@
+# Petalinux
+petalinux/.petalinux
+petalinux/build
+petalinux/images
+petalinux/components
+petalinux/project-spec/hw-description
+petalinux/project-spec/meta-plnx-generated
+petalinux**/*.old
+
+# Vivado
+FastSense_base
+*.jou
+*.log
+
+# Platform
+platform/*/
+platform/*xilinx-linux
+
+# Other
+.directory

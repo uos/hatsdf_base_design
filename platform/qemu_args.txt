@@ -1,0 +1,11 @@
+-M arm-generic-fdt
+-serial mon:stdio
+-device loader,file=<bl31.elf>,cpu-num=0
+-device loader,file=<u-boot.elf>
+-net nic
+-net nic
+-net nic
+-net nic,netdev=eth0
+-global "xlnx,zynqmp-boot.cpu-num=0"
+-global "xlnx,zynqmp-boot.use-pmufw=true"
+-m 4G

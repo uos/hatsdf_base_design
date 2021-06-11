@@ -1,0 +1,15 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+CONFIG_libphidget21
+CONFIG_dropbearkey
+CONFIG_cppzmq-dev
+CONFIG_zeromq
+CONFIG_hdf5
+CONFIG_highfive-dev
+CONFIG_xrt-env
+CONFIG_sudoers
+CONFIG_libgomp
+CONFIG_libgomp-dev
+CONFIG_libgomp-staticdev
+CONFIG_initsdcard
